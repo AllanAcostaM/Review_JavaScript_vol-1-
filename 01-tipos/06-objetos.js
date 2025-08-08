@@ -3,11 +3,14 @@ let nombre = "Goku";
 let anime = "Dragon Ball Z"
 let edad = 35;
 
+
+let personajeFalso = {} // <- Objeto literal  
+
 let personaje = {
     nombre: "Goku",
     anime: "Dragon Ball Z",
     edad: 35, 
-}; // <- Objeto literal 
+}; // <- Objeto con propiedades o atributos 
 
 console.log(personaje);
 console.log(personaje.edad);
